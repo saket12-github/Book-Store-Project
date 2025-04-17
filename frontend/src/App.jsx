@@ -7,7 +7,7 @@ import EditBook from './pages/EditBook';
 import DeleteBook from './pages/DeleteBook';
 
 const API_BASE = process.env.REACT_APP_BACKEND_URL;
-fetch(`${API}/books`);
+fetch(`${API_BASE}/books`);
 
 const App = () => {
   return (
