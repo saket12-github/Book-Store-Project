@@ -6,6 +6,8 @@ import ShowBook from './pages/ShowBook';
 import EditBook from './pages/EditBook';
 import DeleteBook from './pages/DeleteBook';
 
+const API_BASE = process.env.https://book-store-project-production-c4bb.up.railway.app/;
+
 const App = () => {
   return (
     <Routes>
